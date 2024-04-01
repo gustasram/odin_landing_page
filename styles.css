@@ -128,13 +128,46 @@
     margin: 12px 0;
 }
 
+/* Call to Action Section */ 
+
+.call-to-action-section {
+    padding: 110px 200px;
+}
+
+.call-to-action {
+    display: flex;
+    padding: 56px 0;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #3882F6;
+}
+
+.call-to-action h2 {
+    margin: 0;
+    color: white;
+}
+
+.call-to-action p {
+    margin: 0;
+    margin-top: 3px;
+    color:#E5E7EB;
+    font-size: 18px;
+}
+
+.call-to-action button {
+    border: 2px solid white;
+    color: white;
+}
+
 /* Button */
 
 .sign-up {
     border: 0px;
     background-color: #3882F6;
     padding: 9px 35px;
-    border-radius: 5px;
+    border-radius: 8px;
     color: #E5E7EB;
     font-size: 16px;
     font-weight: 600;
